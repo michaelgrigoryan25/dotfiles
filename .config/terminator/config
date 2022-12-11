@@ -1,7 +1,5 @@
 [global_config]
-  dbus = False
   tab_position = hidden
-  putty_paste_style = True
   disable_mouse_paste = True
 [keybindings]
 [profiles]
