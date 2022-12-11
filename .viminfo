@@ -17,6 +17,8 @@
 $
 
 # Command Line History (newest to oldest):
+:q!
+|2,0,1670764868,,"q!"
 :wq
 |2,0,1670748817,,"wq"
 :9999
@@ -29,8 +31,6 @@ $
 |2,0,1670744263,,"0"
 :W
 |2,0,1670743843,,"W"
-:q!
-|2,0,1670739273,,"q!"
 :x
 |2,0,1670699361,,"x"
 :NERDTree
@@ -128,36 +128,52 @@ $
 |3,0,36,0,1,0,1670744516,"d"
 
 # File marks:
-'0  107  9  ~/.zshrc
-|4,48,107,9,1670748817,"~/.zshrc"
-'1  35  9  ~/.config/polybar/config.ini
-|4,49,35,9,1670746020,"~/.config/polybar/config.ini"
-'2  199  19  ~/.config/i3/config
-|4,50,199,19,1670744031,"~/.config/i3/config"
-'3  52  30  ~/.config/polybar/config.ini
-|4,51,52,30,1670743396,"~/.config/polybar/config.ini"
-'4  51  30  ~/.config/polybar/config.ini
-|4,52,51,30,1670743396,"~/.config/polybar/config.ini"
-'5  59  110  ~/.config/i3/config
-|4,53,59,110,1670743324,"~/.config/i3/config"
+'0  2  0  /etc/pam.d/system-local-login
+|4,48,2,0,1670764868,"/etc/pam.d/system-local-login"
+'1  107  9  ~/.zshrc
+|4,49,107,9,1670748817,"~/.zshrc"
+'2  35  9  ~/.config/polybar/config.ini
+|4,50,35,9,1670746020,"~/.config/polybar/config.ini"
+'3  199  19  ~/.config/i3/config
+|4,51,199,19,1670744031,"~/.config/i3/config"
+'4  52  30  ~/.config/polybar/config.ini
+|4,52,52,30,1670743396,"~/.config/polybar/config.ini"
+'5  51  30  ~/.config/polybar/config.ini
+|4,53,51,30,1670743396,"~/.config/polybar/config.ini"
 '6  59  110  ~/.config/i3/config
 |4,54,59,110,1670743324,"~/.config/i3/config"
-'7  59  99  ~/.config/i3/config
-|4,55,59,99,1670742982,"~/.config/i3/config"
+'7  59  110  ~/.config/i3/config
+|4,55,59,110,1670743324,"~/.config/i3/config"
 '8  59  99  ~/.config/i3/config
 |4,56,59,99,1670742982,"~/.config/i3/config"
-'9  59  70  ~/.config/i3/config
-|4,57,59,70,1670742890,"~/.config/i3/config"
+'9  59  99  ~/.config/i3/config
+|4,57,59,99,1670742982,"~/.config/i3/config"
 
 # Jumplist (newest first):
+-'  2  0  /etc/pam.d/system-local-login
+|4,39,2,0,1670764868,"/etc/pam.d/system-local-login"
+-'  1  0  /etc/pam.d/system-local-login
+|4,39,1,0,1670764857,"/etc/pam.d/system-local-login"
 -'  107  9  ~/.zshrc
 |4,39,107,9,1670748817,"~/.zshrc"
+-'  107  9  ~/.zshrc
+|4,39,107,9,1670748817,"~/.zshrc"
+-'  73  33  ~/.zshrc
+|4,39,73,33,1670748801,"~/.zshrc"
 -'  73  33  ~/.zshrc
 |4,39,73,33,1670748801,"~/.zshrc"
 -'  35  9  ~/.config/polybar/config.ini
 |4,39,35,9,1670746020,"~/.config/polybar/config.ini"
 -'  35  9  ~/.config/polybar/config.ini
 |4,39,35,9,1670746020,"~/.config/polybar/config.ini"
+-'  35  9  ~/.config/polybar/config.ini
+|4,39,35,9,1670746020,"~/.config/polybar/config.ini"
+-'  35  9  ~/.config/polybar/config.ini
+|4,39,35,9,1670746020,"~/.config/polybar/config.ini"
+-'  20  0  ~/.config/polybar/config.ini
+|4,39,20,0,1670744259,"~/.config/polybar/config.ini"
+-'  20  0  ~/.config/polybar/config.ini
+|4,39,20,0,1670744259,"~/.config/polybar/config.ini"
 -'  20  0  ~/.config/polybar/config.ini
 |4,39,20,0,1670744259,"~/.config/polybar/config.ini"
 -'  20  0  ~/.config/polybar/config.ini
@@ -170,6 +186,22 @@ $
 |4,39,199,19,1670744031,"~/.config/i3/config"
 -'  199  19  ~/.config/i3/config
 |4,39,199,19,1670744031,"~/.config/i3/config"
+-'  199  19  ~/.config/i3/config
+|4,39,199,19,1670744031,"~/.config/i3/config"
+-'  199  19  ~/.config/i3/config
+|4,39,199,19,1670744031,"~/.config/i3/config"
+-'  199  19  ~/.config/i3/config
+|4,39,199,19,1670744031,"~/.config/i3/config"
+-'  199  19  ~/.config/i3/config
+|4,39,199,19,1670744031,"~/.config/i3/config"
+-'  59  110  ~/.config/i3/config
+|4,39,59,110,1670743484,"~/.config/i3/config"
+-'  59  110  ~/.config/i3/config
+|4,39,59,110,1670743484,"~/.config/i3/config"
+-'  59  110  ~/.config/i3/config
+|4,39,59,110,1670743484,"~/.config/i3/config"
+-'  59  110  ~/.config/i3/config
+|4,39,59,110,1670743484,"~/.config/i3/config"
 -'  59  110  ~/.config/i3/config
 |4,39,59,110,1670743484,"~/.config/i3/config"
 -'  59  110  ~/.config/i3/config
@@ -190,6 +222,30 @@ $
 |4,39,51,30,1670743396,"~/.config/polybar/config.ini"
 -'  51  30  ~/.config/polybar/config.ini
 |4,39,51,30,1670743396,"~/.config/polybar/config.ini"
+-'  52  30  ~/.config/polybar/config.ini
+|4,39,52,30,1670743396,"~/.config/polybar/config.ini"
+-'  51  30  ~/.config/polybar/config.ini
+|4,39,51,30,1670743396,"~/.config/polybar/config.ini"
+-'  51  30  ~/.config/polybar/config.ini
+|4,39,51,30,1670743396,"~/.config/polybar/config.ini"
+-'  52  30  ~/.config/polybar/config.ini
+|4,39,52,30,1670743396,"~/.config/polybar/config.ini"
+-'  51  30  ~/.config/polybar/config.ini
+|4,39,51,30,1670743396,"~/.config/polybar/config.ini"
+-'  51  30  ~/.config/polybar/config.ini
+|4,39,51,30,1670743396,"~/.config/polybar/config.ini"
+-'  45  8  ~/.config/polybar/config.ini
+|4,39,45,8,1670743364,"~/.config/polybar/config.ini"
+-'  44  8  ~/.config/polybar/config.ini
+|4,39,44,8,1670743364,"~/.config/polybar/config.ini"
+-'  44  8  ~/.config/polybar/config.ini
+|4,39,44,8,1670743364,"~/.config/polybar/config.ini"
+-'  45  8  ~/.config/polybar/config.ini
+|4,39,45,8,1670743364,"~/.config/polybar/config.ini"
+-'  44  8  ~/.config/polybar/config.ini
+|4,39,44,8,1670743364,"~/.config/polybar/config.ini"
+-'  44  8  ~/.config/polybar/config.ini
+|4,39,44,8,1670743364,"~/.config/polybar/config.ini"
 -'  45  8  ~/.config/polybar/config.ini
 |4,39,45,8,1670743364,"~/.config/polybar/config.ini"
 -'  44  8  ~/.config/polybar/config.ini
@@ -218,6 +274,38 @@ $
 |4,39,59,110,1670743324,"~/.config/i3/config"
 -'  59  110  ~/.config/i3/config
 |4,39,59,110,1670743324,"~/.config/i3/config"
+-'  59  110  ~/.config/i3/config
+|4,39,59,110,1670743324,"~/.config/i3/config"
+-'  59  110  ~/.config/i3/config
+|4,39,59,110,1670743324,"~/.config/i3/config"
+-'  59  110  ~/.config/i3/config
+|4,39,59,110,1670743324,"~/.config/i3/config"
+-'  59  110  ~/.config/i3/config
+|4,39,59,110,1670743324,"~/.config/i3/config"
+-'  59  110  ~/.config/i3/config
+|4,39,59,110,1670743324,"~/.config/i3/config"
+-'  59  110  ~/.config/i3/config
+|4,39,59,110,1670743324,"~/.config/i3/config"
+-'  59  110  ~/.config/i3/config
+|4,39,59,110,1670743324,"~/.config/i3/config"
+-'  59  110  ~/.config/i3/config
+|4,39,59,110,1670743324,"~/.config/i3/config"
+-'  59  99  ~/.config/i3/config
+|4,39,59,99,1670742982,"~/.config/i3/config"
+-'  59  99  ~/.config/i3/config
+|4,39,59,99,1670742982,"~/.config/i3/config"
+-'  59  99  ~/.config/i3/config
+|4,39,59,99,1670742982,"~/.config/i3/config"
+-'  59  99  ~/.config/i3/config
+|4,39,59,99,1670742982,"~/.config/i3/config"
+-'  59  99  ~/.config/i3/config
+|4,39,59,99,1670742982,"~/.config/i3/config"
+-'  59  99  ~/.config/i3/config
+|4,39,59,99,1670742982,"~/.config/i3/config"
+-'  59  99  ~/.config/i3/config
+|4,39,59,99,1670742982,"~/.config/i3/config"
+-'  59  99  ~/.config/i3/config
+|4,39,59,99,1670742982,"~/.config/i3/config"
 -'  59  99  ~/.config/i3/config
 |4,39,59,99,1670742982,"~/.config/i3/config"
 -'  59  99  ~/.config/i3/config
@@ -250,108 +338,27 @@ $
 |4,39,59,70,1670742890,"~/.config/i3/config"
 -'  59  70  ~/.config/i3/config
 |4,39,59,70,1670742890,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670742869,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670741517,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670741517,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670741517,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670741517,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670741517,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670741517,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670741517,"~/.config/i3/config"
--'  194  0  ~/.config/i3/config
-|4,39,194,0,1670741517,"~/.config/i3/config"
--'  191  0  ~/.config/i3/config
-|4,39,191,0,1670741432,"~/.config/i3/config"
--'  192  0  ~/.config/i3/config
-|4,39,192,0,1670741432,"~/.config/i3/config"
--'  191  0  ~/.config/i3/config
-|4,39,191,0,1670741432,"~/.config/i3/config"
--'  192  0  ~/.config/i3/config
-|4,39,192,0,1670741432,"~/.config/i3/config"
--'  191  0  ~/.config/i3/config
-|4,39,191,0,1670741432,"~/.config/i3/config"
--'  192  0  ~/.config/i3/config
-|4,39,192,0,1670741432,"~/.config/i3/config"
--'  191  0  ~/.config/i3/config
-|4,39,191,0,1670741432,"~/.config/i3/config"
--'  192  0  ~/.config/i3/config
-|4,39,192,0,1670741432,"~/.config/i3/config"
--'  191  0  ~/.config/i3/config
-|4,39,191,0,1670741432,"~/.config/i3/config"
--'  192  0  ~/.config/i3/config
-|4,39,192,0,1670741432,"~/.config/i3/config"
--'  191  0  ~/.config/i3/config
-|4,39,191,0,1670741432,"~/.config/i3/config"
--'  192  0  ~/.config/i3/config
-|4,39,192,0,1670741432,"~/.config/i3/config"
--'  191  0  ~/.config/i3/config
-|4,39,191,0,1670741432,"~/.config/i3/config"
--'  192  0  ~/.config/i3/config
-|4,39,192,0,1670741432,"~/.config/i3/config"
+-'  59  70  ~/.config/i3/config
+|4,39,59,70,1670742890,"~/.config/i3/config"
+-'  59  70  ~/.config/i3/config
+|4,39,59,70,1670742890,"~/.config/i3/config"
+-'  59  70  ~/.config/i3/config
+|4,39,59,70,1670742890,"~/.config/i3/config"
+-'  59  70  ~/.config/i3/config
+|4,39,59,70,1670742890,"~/.config/i3/config"
+-'  59  70  ~/.config/i3/config
+|4,39,59,70,1670742890,"~/.config/i3/config"
+-'  59  70  ~/.config/i3/config
+|4,39,59,70,1670742890,"~/.config/i3/config"
 
 # History of marks within files (newest to oldest):
+
+> /etc/pam.d/system-local-login
+	*	1670764867	0
+	"	2	0
+	^	2	0
+	.	3	0
+	+	3	0
 
 > ~/.zshrc
 	*	1670748816	0
