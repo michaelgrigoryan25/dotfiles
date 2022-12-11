@@ -1,0 +1,9 @@
+{
+  "coc.preferences.formatOnType": true,
+  "diagnostic.checkCurrentLine": true,
+  "suggest.acceptSuggestionOnCommitCharacter": true,
+  "suggest.triggerAfterInsertEnter": true,
+  "suggest.autoTrigger": "always",
+  "suggest.virtualText": true,
+	"npm.binPath": "~/.nvm/versions/node/v16.17.1/bin/npm"
+}
