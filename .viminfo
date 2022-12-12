@@ -11,22 +11,24 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<background\>
+~MSle0~/AutoEnable
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:q!
-|2,0,1670764868,,"q!"
 :wq
-|2,0,1670748817,,"wq"
+|2,0,1670848851,,"wq"
+:w
+|2,0,1670848760,,"w"
+:q
+|2,0,1670843878,,"q"
+:q!
+|2,0,1670843504,,"q!"
+:Q
+|2,0,1670787820,,"Q"
 :9999
 |2,0,1670748803,,"9999"
-:q
-|2,0,1670746020,,"q"
-:w
-|2,0,1670744537,,"w"
 :0
 |2,0,1670744263,,"0"
 :W
@@ -47,10 +49,16 @@ $
 |2,0,1670684020,,"qa"
 
 # Search String History (newest to oldest):
+?/AutoEnable
+|2,1,1670843496,47,"AutoEnable"
+?/address
+|2,1,1670843452,47,"address"
+? @$
+|2,1,1670843431,,"@$"
+?/pactl
+|2,1,1670787828,47,"pactl"
 ? \<background\>
 |2,1,1670744259,,"\\<background\\>"
-? @$
-|2,1,1670744230,,"@$"
 ?/client.foc
 |2,1,1670743489,47,"client.foc"
 ?/font
@@ -93,9 +101,9 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
+"0	CHAR	0
 	d
-|3,1,0,0,1,0,1670746018,"d"
+|3,0,0,0,1,0,1670843433,"d"
 "1	LINE	0
 	
 |3,0,1,1,1,0,1670744382,""
@@ -123,248 +131,241 @@ $
 "9	LINE	0
 	# Keyboard Layout
 |3,0,9,1,1,0,1670743500,"# Keyboard Layout"
-"-	CHAR	0
-	d
-|3,0,36,0,1,0,1670744516,"d"
+""-	CHAR	0
+	s
+|3,1,36,0,1,0,1670848849,"s"
 
 # File marks:
-'0  2  0  /etc/pam.d/system-local-login
-|4,48,2,0,1670764868,"/etc/pam.d/system-local-login"
-'1  107  9  ~/.zshrc
-|4,49,107,9,1670748817,"~/.zshrc"
-'2  35  9  ~/.config/polybar/config.ini
-|4,50,35,9,1670746020,"~/.config/polybar/config.ini"
-'3  199  19  ~/.config/i3/config
-|4,51,199,19,1670744031,"~/.config/i3/config"
-'4  52  30  ~/.config/polybar/config.ini
-|4,52,52,30,1670743396,"~/.config/polybar/config.ini"
-'5  51  30  ~/.config/polybar/config.ini
-|4,53,51,30,1670743396,"~/.config/polybar/config.ini"
-'6  59  110  ~/.config/i3/config
-|4,54,59,110,1670743324,"~/.config/i3/config"
-'7  59  110  ~/.config/i3/config
-|4,55,59,110,1670743324,"~/.config/i3/config"
-'8  59  99  ~/.config/i3/config
-|4,56,59,99,1670742982,"~/.config/i3/config"
-'9  59  99  ~/.config/i3/config
-|4,57,59,99,1670742982,"~/.config/i3/config"
+'0  107  13  ~/.zshrc
+|4,48,107,13,1670848851,"~/.zshrc"
+'1  107  13  ~/.zshrc
+|4,49,107,13,1670848787,"~/.zshrc"
+'2  7  13  /etc/mkinitcpio.conf
+|4,50,7,13,1670843878,"/etc/mkinitcpio.conf"
+'3  285  0  /etc/bluetooth/main.conf
+|4,51,285,0,1670843504,"/etc/bluetooth/main.conf"
+'4  19  7  /etc/mkinitcpio.conf
+|4,52,19,7,1670843403,"/etc/mkinitcpio.conf"
+'5  19  7  /etc/mkinitcpio.conf
+|4,53,19,7,1670843403,"/etc/mkinitcpio.conf"
+'6  9  1  /etc/mkinitcpio.d
+|4,54,9,1,1670843364,"/etc/mkinitcpio.d"
+'7  1  31  /etc/modprobe.d/iwlwifi.conf
+|4,55,1,31,1670818710,"/etc/modprobe.d/iwlwifi.conf"
+'8  43  61  ~/.config/i3/config
+|4,56,43,61,1670787982,"~/.config/i3/config"
+'9  185  9  ~/.config/polybar/config.ini
+|4,57,185,9,1670787821,"~/.config/polybar/config.ini"
 
 # Jumplist (newest first):
--'  2  0  /etc/pam.d/system-local-login
-|4,39,2,0,1670764868,"/etc/pam.d/system-local-login"
--'  1  0  /etc/pam.d/system-local-login
-|4,39,1,0,1670764857,"/etc/pam.d/system-local-login"
--'  107  9  ~/.zshrc
-|4,39,107,9,1670748817,"~/.zshrc"
--'  107  9  ~/.zshrc
-|4,39,107,9,1670748817,"~/.zshrc"
--'  73  33  ~/.zshrc
-|4,39,73,33,1670748801,"~/.zshrc"
--'  73  33  ~/.zshrc
-|4,39,73,33,1670748801,"~/.zshrc"
--'  35  9  ~/.config/polybar/config.ini
-|4,39,35,9,1670746020,"~/.config/polybar/config.ini"
--'  35  9  ~/.config/polybar/config.ini
-|4,39,35,9,1670746020,"~/.config/polybar/config.ini"
--'  35  9  ~/.config/polybar/config.ini
-|4,39,35,9,1670746020,"~/.config/polybar/config.ini"
--'  35  9  ~/.config/polybar/config.ini
-|4,39,35,9,1670746020,"~/.config/polybar/config.ini"
--'  20  0  ~/.config/polybar/config.ini
-|4,39,20,0,1670744259,"~/.config/polybar/config.ini"
--'  20  0  ~/.config/polybar/config.ini
-|4,39,20,0,1670744259,"~/.config/polybar/config.ini"
--'  20  0  ~/.config/polybar/config.ini
-|4,39,20,0,1670744259,"~/.config/polybar/config.ini"
--'  20  0  ~/.config/polybar/config.ini
-|4,39,20,0,1670744259,"~/.config/polybar/config.ini"
--'  199  19  ~/.config/i3/config
-|4,39,199,19,1670744031,"~/.config/i3/config"
--'  199  19  ~/.config/i3/config
-|4,39,199,19,1670744031,"~/.config/i3/config"
--'  199  19  ~/.config/i3/config
-|4,39,199,19,1670744031,"~/.config/i3/config"
--'  199  19  ~/.config/i3/config
-|4,39,199,19,1670744031,"~/.config/i3/config"
--'  199  19  ~/.config/i3/config
-|4,39,199,19,1670744031,"~/.config/i3/config"
--'  199  19  ~/.config/i3/config
-|4,39,199,19,1670744031,"~/.config/i3/config"
--'  199  19  ~/.config/i3/config
-|4,39,199,19,1670744031,"~/.config/i3/config"
--'  199  19  ~/.config/i3/config
-|4,39,199,19,1670744031,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743484,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743484,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743484,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743484,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743484,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743484,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743484,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743484,"~/.config/i3/config"
--'  52  30  ~/.config/polybar/config.ini
-|4,39,52,30,1670743396,"~/.config/polybar/config.ini"
--'  51  30  ~/.config/polybar/config.ini
-|4,39,51,30,1670743396,"~/.config/polybar/config.ini"
--'  51  30  ~/.config/polybar/config.ini
-|4,39,51,30,1670743396,"~/.config/polybar/config.ini"
--'  52  30  ~/.config/polybar/config.ini
-|4,39,52,30,1670743396,"~/.config/polybar/config.ini"
--'  51  30  ~/.config/polybar/config.ini
-|4,39,51,30,1670743396,"~/.config/polybar/config.ini"
--'  51  30  ~/.config/polybar/config.ini
-|4,39,51,30,1670743396,"~/.config/polybar/config.ini"
--'  52  30  ~/.config/polybar/config.ini
-|4,39,52,30,1670743396,"~/.config/polybar/config.ini"
--'  51  30  ~/.config/polybar/config.ini
-|4,39,51,30,1670743396,"~/.config/polybar/config.ini"
--'  51  30  ~/.config/polybar/config.ini
-|4,39,51,30,1670743396,"~/.config/polybar/config.ini"
--'  52  30  ~/.config/polybar/config.ini
-|4,39,52,30,1670743396,"~/.config/polybar/config.ini"
--'  51  30  ~/.config/polybar/config.ini
-|4,39,51,30,1670743396,"~/.config/polybar/config.ini"
--'  51  30  ~/.config/polybar/config.ini
-|4,39,51,30,1670743396,"~/.config/polybar/config.ini"
--'  45  8  ~/.config/polybar/config.ini
-|4,39,45,8,1670743364,"~/.config/polybar/config.ini"
--'  44  8  ~/.config/polybar/config.ini
-|4,39,44,8,1670743364,"~/.config/polybar/config.ini"
--'  44  8  ~/.config/polybar/config.ini
-|4,39,44,8,1670743364,"~/.config/polybar/config.ini"
--'  45  8  ~/.config/polybar/config.ini
-|4,39,45,8,1670743364,"~/.config/polybar/config.ini"
--'  44  8  ~/.config/polybar/config.ini
-|4,39,44,8,1670743364,"~/.config/polybar/config.ini"
--'  44  8  ~/.config/polybar/config.ini
-|4,39,44,8,1670743364,"~/.config/polybar/config.ini"
--'  45  8  ~/.config/polybar/config.ini
-|4,39,45,8,1670743364,"~/.config/polybar/config.ini"
--'  44  8  ~/.config/polybar/config.ini
-|4,39,44,8,1670743364,"~/.config/polybar/config.ini"
--'  44  8  ~/.config/polybar/config.ini
-|4,39,44,8,1670743364,"~/.config/polybar/config.ini"
--'  45  8  ~/.config/polybar/config.ini
-|4,39,45,8,1670743364,"~/.config/polybar/config.ini"
--'  44  8  ~/.config/polybar/config.ini
-|4,39,44,8,1670743364,"~/.config/polybar/config.ini"
--'  44  8  ~/.config/polybar/config.ini
-|4,39,44,8,1670743364,"~/.config/polybar/config.ini"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743324,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743324,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743324,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743324,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743324,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743324,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743324,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743324,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743324,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743324,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743324,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743324,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743324,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743324,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743324,"~/.config/i3/config"
--'  59  110  ~/.config/i3/config
-|4,39,59,110,1670743324,"~/.config/i3/config"
--'  59  99  ~/.config/i3/config
-|4,39,59,99,1670742982,"~/.config/i3/config"
--'  59  99  ~/.config/i3/config
-|4,39,59,99,1670742982,"~/.config/i3/config"
--'  59  99  ~/.config/i3/config
-|4,39,59,99,1670742982,"~/.config/i3/config"
--'  59  99  ~/.config/i3/config
-|4,39,59,99,1670742982,"~/.config/i3/config"
--'  59  99  ~/.config/i3/config
-|4,39,59,99,1670742982,"~/.config/i3/config"
--'  59  99  ~/.config/i3/config
-|4,39,59,99,1670742982,"~/.config/i3/config"
--'  59  99  ~/.config/i3/config
-|4,39,59,99,1670742982,"~/.config/i3/config"
--'  59  99  ~/.config/i3/config
-|4,39,59,99,1670742982,"~/.config/i3/config"
--'  59  99  ~/.config/i3/config
-|4,39,59,99,1670742982,"~/.config/i3/config"
--'  59  99  ~/.config/i3/config
-|4,39,59,99,1670742982,"~/.config/i3/config"
--'  59  99  ~/.config/i3/config
-|4,39,59,99,1670742982,"~/.config/i3/config"
--'  59  99  ~/.config/i3/config
-|4,39,59,99,1670742982,"~/.config/i3/config"
--'  59  99  ~/.config/i3/config
-|4,39,59,99,1670742982,"~/.config/i3/config"
--'  59  99  ~/.config/i3/config
-|4,39,59,99,1670742982,"~/.config/i3/config"
--'  59  99  ~/.config/i3/config
-|4,39,59,99,1670742982,"~/.config/i3/config"
--'  59  99  ~/.config/i3/config
-|4,39,59,99,1670742982,"~/.config/i3/config"
--'  59  70  ~/.config/i3/config
-|4,39,59,70,1670742890,"~/.config/i3/config"
--'  59  70  ~/.config/i3/config
-|4,39,59,70,1670742890,"~/.config/i3/config"
--'  59  70  ~/.config/i3/config
-|4,39,59,70,1670742890,"~/.config/i3/config"
--'  59  70  ~/.config/i3/config
-|4,39,59,70,1670742890,"~/.config/i3/config"
--'  59  70  ~/.config/i3/config
-|4,39,59,70,1670742890,"~/.config/i3/config"
--'  59  70  ~/.config/i3/config
-|4,39,59,70,1670742890,"~/.config/i3/config"
--'  59  70  ~/.config/i3/config
-|4,39,59,70,1670742890,"~/.config/i3/config"
--'  59  70  ~/.config/i3/config
-|4,39,59,70,1670742890,"~/.config/i3/config"
--'  59  70  ~/.config/i3/config
-|4,39,59,70,1670742890,"~/.config/i3/config"
--'  59  70  ~/.config/i3/config
-|4,39,59,70,1670742890,"~/.config/i3/config"
--'  59  70  ~/.config/i3/config
-|4,39,59,70,1670742890,"~/.config/i3/config"
--'  59  70  ~/.config/i3/config
-|4,39,59,70,1670742890,"~/.config/i3/config"
--'  59  70  ~/.config/i3/config
-|4,39,59,70,1670742890,"~/.config/i3/config"
--'  59  70  ~/.config/i3/config
-|4,39,59,70,1670742890,"~/.config/i3/config"
+-'  107  13  ~/.zshrc
+|4,39,107,13,1670848851,"~/.zshrc"
+-'  107  13  ~/.zshrc
+|4,39,107,13,1670848787,"~/.zshrc"
+-'  7  13  /etc/mkinitcpio.conf
+|4,39,7,13,1670843878,"/etc/mkinitcpio.conf"
+-'  7  13  /etc/mkinitcpio.conf
+|4,39,7,13,1670843878,"/etc/mkinitcpio.conf"
+-'  7  13  /etc/mkinitcpio.conf
+|4,39,7,13,1670843878,"/etc/mkinitcpio.conf"
+-'  7  13  /etc/mkinitcpio.conf
+|4,39,7,13,1670843878,"/etc/mkinitcpio.conf"
+-'  19  7  /etc/mkinitcpio.conf
+|4,39,19,7,1670843866,"/etc/mkinitcpio.conf"
+-'  19  7  /etc/mkinitcpio.conf
+|4,39,19,7,1670843866,"/etc/mkinitcpio.conf"
+-'  19  7  /etc/mkinitcpio.conf
+|4,39,19,7,1670843866,"/etc/mkinitcpio.conf"
+-'  19  7  /etc/mkinitcpio.conf
+|4,39,19,7,1670843866,"/etc/mkinitcpio.conf"
+-'  285  0  /etc/bluetooth/main.conf
+|4,39,285,0,1670843504,"/etc/bluetooth/main.conf"
+-'  285  0  /etc/bluetooth/main.conf
+|4,39,285,0,1670843504,"/etc/bluetooth/main.conf"
+-'  285  0  /etc/bluetooth/main.conf
+|4,39,285,0,1670843504,"/etc/bluetooth/main.conf"
+-'  285  0  /etc/bluetooth/main.conf
+|4,39,285,0,1670843504,"/etc/bluetooth/main.conf"
+-'  285  0  /etc/bluetooth/main.conf
+|4,39,285,0,1670843504,"/etc/bluetooth/main.conf"
+-'  285  0  /etc/bluetooth/main.conf
+|4,39,285,0,1670843504,"/etc/bluetooth/main.conf"
+-'  285  0  /etc/bluetooth/main.conf
+|4,39,285,0,1670843504,"/etc/bluetooth/main.conf"
+-'  285  0  /etc/bluetooth/main.conf
+|4,39,285,0,1670843504,"/etc/bluetooth/main.conf"
+-'  46  28  /etc/bluetooth/main.conf
+|4,39,46,28,1670843496,"/etc/bluetooth/main.conf"
+-'  46  28  /etc/bluetooth/main.conf
+|4,39,46,28,1670843496,"/etc/bluetooth/main.conf"
+-'  46  28  /etc/bluetooth/main.conf
+|4,39,46,28,1670843496,"/etc/bluetooth/main.conf"
+-'  46  28  /etc/bluetooth/main.conf
+|4,39,46,28,1670843496,"/etc/bluetooth/main.conf"
+-'  46  28  /etc/bluetooth/main.conf
+|4,39,46,28,1670843496,"/etc/bluetooth/main.conf"
+-'  46  28  /etc/bluetooth/main.conf
+|4,39,46,28,1670843496,"/etc/bluetooth/main.conf"
+-'  46  28  /etc/bluetooth/main.conf
+|4,39,46,28,1670843496,"/etc/bluetooth/main.conf"
+-'  46  28  /etc/bluetooth/main.conf
+|4,39,46,28,1670843496,"/etc/bluetooth/main.conf"
+-'  87  2  /etc/bluetooth/main.conf
+|4,39,87,2,1670843458,"/etc/bluetooth/main.conf"
+-'  81  31  /etc/bluetooth/main.conf
+|4,39,81,31,1670843458,"/etc/bluetooth/main.conf"
+-'  87  2  /etc/bluetooth/main.conf
+|4,39,87,2,1670843458,"/etc/bluetooth/main.conf"
+-'  81  31  /etc/bluetooth/main.conf
+|4,39,81,31,1670843458,"/etc/bluetooth/main.conf"
+-'  87  2  /etc/bluetooth/main.conf
+|4,39,87,2,1670843458,"/etc/bluetooth/main.conf"
+-'  81  31  /etc/bluetooth/main.conf
+|4,39,81,31,1670843458,"/etc/bluetooth/main.conf"
+-'  87  2  /etc/bluetooth/main.conf
+|4,39,87,2,1670843458,"/etc/bluetooth/main.conf"
+-'  81  31  /etc/bluetooth/main.conf
+|4,39,81,31,1670843458,"/etc/bluetooth/main.conf"
+-'  87  2  /etc/bluetooth/main.conf
+|4,39,87,2,1670843458,"/etc/bluetooth/main.conf"
+-'  81  31  /etc/bluetooth/main.conf
+|4,39,81,31,1670843458,"/etc/bluetooth/main.conf"
+-'  87  2  /etc/bluetooth/main.conf
+|4,39,87,2,1670843458,"/etc/bluetooth/main.conf"
+-'  81  31  /etc/bluetooth/main.conf
+|4,39,81,31,1670843458,"/etc/bluetooth/main.conf"
+-'  87  2  /etc/bluetooth/main.conf
+|4,39,87,2,1670843458,"/etc/bluetooth/main.conf"
+-'  81  31  /etc/bluetooth/main.conf
+|4,39,81,31,1670843458,"/etc/bluetooth/main.conf"
+-'  87  2  /etc/bluetooth/main.conf
+|4,39,87,2,1670843458,"/etc/bluetooth/main.conf"
+-'  81  31  /etc/bluetooth/main.conf
+|4,39,81,31,1670843458,"/etc/bluetooth/main.conf"
+-'  73  25  /etc/bluetooth/main.conf
+|4,39,73,25,1670843457,"/etc/bluetooth/main.conf"
+-'  73  25  /etc/bluetooth/main.conf
+|4,39,73,25,1670843457,"/etc/bluetooth/main.conf"
+-'  73  25  /etc/bluetooth/main.conf
+|4,39,73,25,1670843457,"/etc/bluetooth/main.conf"
+-'  73  25  /etc/bluetooth/main.conf
+|4,39,73,25,1670843457,"/etc/bluetooth/main.conf"
+-'  73  25  /etc/bluetooth/main.conf
+|4,39,73,25,1670843457,"/etc/bluetooth/main.conf"
+-'  73  25  /etc/bluetooth/main.conf
+|4,39,73,25,1670843457,"/etc/bluetooth/main.conf"
+-'  73  25  /etc/bluetooth/main.conf
+|4,39,73,25,1670843457,"/etc/bluetooth/main.conf"
+-'  73  25  /etc/bluetooth/main.conf
+|4,39,73,25,1670843457,"/etc/bluetooth/main.conf"
+-'  94  67  /etc/bluetooth/main.conf
+|4,39,94,67,1670843456,"/etc/bluetooth/main.conf"
+-'  90  67  /etc/bluetooth/main.conf
+|4,39,90,67,1670843456,"/etc/bluetooth/main.conf"
+-'  94  67  /etc/bluetooth/main.conf
+|4,39,94,67,1670843456,"/etc/bluetooth/main.conf"
+-'  90  67  /etc/bluetooth/main.conf
+|4,39,90,67,1670843456,"/etc/bluetooth/main.conf"
+-'  94  67  /etc/bluetooth/main.conf
+|4,39,94,67,1670843456,"/etc/bluetooth/main.conf"
+-'  90  67  /etc/bluetooth/main.conf
+|4,39,90,67,1670843456,"/etc/bluetooth/main.conf"
+-'  94  67  /etc/bluetooth/main.conf
+|4,39,94,67,1670843456,"/etc/bluetooth/main.conf"
+-'  90  67  /etc/bluetooth/main.conf
+|4,39,90,67,1670843456,"/etc/bluetooth/main.conf"
+-'  94  67  /etc/bluetooth/main.conf
+|4,39,94,67,1670843456,"/etc/bluetooth/main.conf"
+-'  90  67  /etc/bluetooth/main.conf
+|4,39,90,67,1670843456,"/etc/bluetooth/main.conf"
+-'  94  67  /etc/bluetooth/main.conf
+|4,39,94,67,1670843456,"/etc/bluetooth/main.conf"
+-'  90  67  /etc/bluetooth/main.conf
+|4,39,90,67,1670843456,"/etc/bluetooth/main.conf"
+-'  94  67  /etc/bluetooth/main.conf
+|4,39,94,67,1670843456,"/etc/bluetooth/main.conf"
+-'  90  67  /etc/bluetooth/main.conf
+|4,39,90,67,1670843456,"/etc/bluetooth/main.conf"
+-'  94  67  /etc/bluetooth/main.conf
+|4,39,94,67,1670843456,"/etc/bluetooth/main.conf"
+-'  90  67  /etc/bluetooth/main.conf
+|4,39,90,67,1670843456,"/etc/bluetooth/main.conf"
+-'  14  0  /etc/bluetooth/main.conf
+|4,39,14,0,1670843452,"/etc/bluetooth/main.conf"
+-'  14  0  /etc/bluetooth/main.conf
+|4,39,14,0,1670843452,"/etc/bluetooth/main.conf"
+-'  14  0  /etc/bluetooth/main.conf
+|4,39,14,0,1670843452,"/etc/bluetooth/main.conf"
+-'  14  0  /etc/bluetooth/main.conf
+|4,39,14,0,1670843452,"/etc/bluetooth/main.conf"
+-'  14  0  /etc/bluetooth/main.conf
+|4,39,14,0,1670843452,"/etc/bluetooth/main.conf"
+-'  14  0  /etc/bluetooth/main.conf
+|4,39,14,0,1670843452,"/etc/bluetooth/main.conf"
+-'  14  0  /etc/bluetooth/main.conf
+|4,39,14,0,1670843452,"/etc/bluetooth/main.conf"
+-'  14  0  /etc/bluetooth/main.conf
+|4,39,14,0,1670843452,"/etc/bluetooth/main.conf"
+-'  19  7  /etc/mkinitcpio.conf
+|4,39,19,7,1670843403,"/etc/mkinitcpio.conf"
+-'  19  7  /etc/mkinitcpio.conf
+|4,39,19,7,1670843403,"/etc/mkinitcpio.conf"
+-'  19  7  /etc/mkinitcpio.conf
+|4,39,19,7,1670843403,"/etc/mkinitcpio.conf"
+-'  19  7  /etc/mkinitcpio.conf
+|4,39,19,7,1670843403,"/etc/mkinitcpio.conf"
+-'  19  7  /etc/mkinitcpio.conf
+|4,39,19,7,1670843403,"/etc/mkinitcpio.conf"
+-'  19  7  /etc/mkinitcpio.conf
+|4,39,19,7,1670843403,"/etc/mkinitcpio.conf"
+-'  19  7  /etc/mkinitcpio.conf
+|4,39,19,7,1670843403,"/etc/mkinitcpio.conf"
+-'  19  7  /etc/mkinitcpio.conf
+|4,39,19,7,1670843403,"/etc/mkinitcpio.conf"
+-'  1  0  /etc/mkinitcpio.conf
+|4,39,1,0,1670843367,"/etc/mkinitcpio.conf"
+-'  1  0  /etc/mkinitcpio.conf
+|4,39,1,0,1670843367,"/etc/mkinitcpio.conf"
+-'  1  0  /etc/mkinitcpio.conf
+|4,39,1,0,1670843367,"/etc/mkinitcpio.conf"
+-'  1  0  /etc/mkinitcpio.conf
+|4,39,1,0,1670843367,"/etc/mkinitcpio.conf"
+-'  1  0  /etc/mkinitcpio.conf
+|4,39,1,0,1670843367,"/etc/mkinitcpio.conf"
+-'  1  0  /etc/mkinitcpio.conf
+|4,39,1,0,1670843367,"/etc/mkinitcpio.conf"
+-'  1  0  /etc/mkinitcpio.conf
+|4,39,1,0,1670843367,"/etc/mkinitcpio.conf"
+-'  1  0  /etc/mkinitcpio.conf
+|4,39,1,0,1670843367,"/etc/mkinitcpio.conf"
+-'  1  0  /etc/mkinitcpio.conf
+|4,39,1,0,1670843367,"/etc/mkinitcpio.conf"
+-'  1  0  /etc/mkinitcpio.conf
+|4,39,1,0,1670843367,"/etc/mkinitcpio.conf"
+-'  1  0  /etc/mkinitcpio.conf
+|4,39,1,0,1670843367,"/etc/mkinitcpio.conf"
+-'  1  0  /etc/mkinitcpio.conf
+|4,39,1,0,1670843367,"/etc/mkinitcpio.conf"
+-'  9  1  /etc/mkinitcpio.d
+|4,39,9,1,1670843364,"/etc/mkinitcpio.d"
+-'  9  1  /etc/mkinitcpio.d
+|4,39,9,1,1670843364,"/etc/mkinitcpio.d"
+-'  9  1  /etc/mkinitcpio.d
+|4,39,9,1,1670843364,"/etc/mkinitcpio.d"
+-'  9  1  /etc/mkinitcpio.d
+|4,39,9,1,1670843364,"/etc/mkinitcpio.d"
+-'  9  1  /etc/mkinitcpio.d
+|4,39,9,1,1670843364,"/etc/mkinitcpio.d"
+-'  9  1  /etc/mkinitcpio.d
+|4,39,9,1,1670843364,"/etc/mkinitcpio.d"
 
 # History of marks within files (newest to oldest):
 
-> /etc/pam.d/system-local-login
-	*	1670764867	0
-	"	2	0
-	^	2	0
-	.	3	0
-	+	3	0
-
 > ~/.zshrc
-	*	1670748816	0
-	"	107	9
-	^	107	10
-	.	107	9
+	*	1670848850	0
+	"	107	13
+	^	107	14
+	.	107	13
 	+	11	16
 	+	2	0
 	+	11	15
@@ -373,32 +374,31 @@ $
 	+	20	11
 	+	11	18
 	+	73	81
-	+	107	9
+	+	107	13
 
-> ~/.config/polybar/config.ini
-	*	1670746018	0
-	"	35	9
-	^	23	24
-	.	23	23
-	+	36	9
-	+	52	30
-	+	20	1
-	+	21	19
-	+	36	9
-	+	35	11
-	+	37	0
-	+	39	0
-	+	24	1
-	+	25	19
-	+	21	19
-	+	22	1
-	+	23	23
+> /etc/mkinitcpio.conf
+	*	1670843877	0
+	"	7	13
+	^	7	14
+
+> /etc/bluetooth/main.conf
+	*	1670843502	0
+	"	285	0
+	.	285	0
+	+	285	0
+
+> /etc/modprobe.d/iwlwifi.conf
+	*	1670818708	0
+	"	1	31
+	^	1	32
+	.	1	32
+	+	1	32
 
 > ~/.config/i3/config
-	*	1670744030	0
-	"	199	19
-	^	199	2
-	.	199	1
+	*	1670787981	0
+	"	43	61
+	^	43	62
+	.	43	62
 	+	198	31
 	+	196	1
 	+	60	1
@@ -451,6 +451,35 @@ $
 	+	203	31
 	+	204	0
 	+	199	1
+	+	43	112
+	+	44	0
+	+	43	62
+
+> ~/.config/polybar/config.ini
+	*	1670787820	0
+	"	185	9
+	^	23	24
+	.	23	23
+	+	36	9
+	+	52	30
+	+	20	1
+	+	21	19
+	+	36	9
+	+	35	11
+	+	37	0
+	+	39	0
+	+	24	1
+	+	25	19
+	+	21	19
+	+	22	1
+	+	23	23
+
+> /etc/pam.d/system-local-login
+	*	1670764867	0
+	"	2	0
+	^	2	0
+	.	3	0
+	+	3	0
 
 > /etc/X11/xorg.conf.d/30-touchpad.conf
 	*	1670740652	0
