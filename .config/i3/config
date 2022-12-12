@@ -57,7 +57,7 @@ bindsym $mod+Return exec --no-startup-id terminator
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id j4-dmenu-desktop --term="terminator" --dmenu="dmenu -i -fn 'JetBrains Mono:style=bold:size=12'"
+bindsym $mod+p exec --no-startup-id j4-dmenu-desktop --term="terminator" --dmenu="dmenu -i -fn 'JetBrains Mono:style=bold:size=12'"
 # dmenu_run
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
