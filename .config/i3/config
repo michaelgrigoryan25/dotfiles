@@ -200,10 +200,9 @@ bindsym $mod+r mode "resize"
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id setxkbmap us
 exec --no-startup-id nitrogen --restore
-client.focused			#2D2D34 #2D2D34 #ff006e
+client.focused		#2D2D34 #2D2D34 #ff006e
 client.urgent			#B97375 #B97375 #ff006e
-
-gaps inner 6
+gaps inner 8
 exec --no-startup-id picom
-# todo: add keyboard layout switching
+exec_always --no-startup-id setxkbmap -layout us,am -variant ,phonetic-alt -option 'grp:alt_shift_toggle'
 
