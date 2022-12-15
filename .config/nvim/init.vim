@@ -79,6 +79,7 @@ let g:coc_global_extensions = [
 autocmd BufEnter NERD_tree_* | execute 'normal R'
 " Toggle NERDTree files and folders using <space>
 let NERDTreeMapActivateNode='<space>'
+let NERDTreeShowHidden=1
 
 " enable full support for astro files
 let g:astro_typescript = 'enable'
@@ -89,23 +90,28 @@ lua << EOF
 	require("telescope").load_extension("projects")
 	require("telescope").load_extension("live_grep_args")
 
-local telescope = require("telescope")
-local lga_actions = require("telescope-live-grep-args.actions")
-
-telescope.setup {
-  extensions = {
-    live_grep_args = {
-      auto_quoting = true, -- enable/disable auto-quoting
-      -- override default mappings
-      -- default_mappings = {},
-      mappings = { -- extend mappings
-        i = {
-          ["<C-k>"] = lga_actions.quote_prompt(),
+  local telescope = require("telescope")
+  local lga_actions = require("telescope-live-grep-args.actions")
+  
+  telescope.setup {
+    pickers = {
+  			find_files = {
+  					hidden = true
+  			}
+    },
+    extensions = {
+      live_grep_args = {
+        auto_quoting = true, -- enable/disable auto-quoting
+        -- override default mappings
+        -- default_mappings = {},
+        mappings = { -- extend mappings
+          i = {
+            ["<C-k>"] = lga_actions.quote_prompt(),
+          }
         }
       }
     }
   }
-}
 
   local actions = require("telescope.actions")
   require("telescope").setup({
