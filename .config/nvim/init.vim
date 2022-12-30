@@ -42,6 +42,8 @@ Plug 'wuelnerdotexe/vim-astro'
 Plug 'filipdutescu/renamer.nvim', { 'branch': 'master' }
 " support for commenting out lines
 Plug 'tpope/vim-commentary'
+" presence plugin for discord
+Plug 'andweeb/presence.nvim'
 call plug#end()
 
 " Keybindings for move.nvim
@@ -81,9 +83,16 @@ autocmd BufEnter NERD_tree_* | execute 'normal R'
 let NERDTreeMapActivateNode='<space>'
 let NERDTreeShowHidden=1
 
-" enable full support for astro files
-let g:astro_typescript = 'enable'
-let g:astro_stylus = 'enable'
+let g:presence_auto_update=1
+let g:presence_main_image='neovim'
+let g:presence_neovim_image_text='The One True Text Editor'
+let g:presence_editing_text        = "Editing %s"
+let g:presence_file_explorer_text  = "Browsing %s"
+let g:presence_git_commit_text     = "Committing changes"
+let g:presence_plugin_manager_text = "Managing plugins"
+let g:presence_reading_text        = "Reading %s"
+let g:presence_workspace_text      = "Working on %s"
+let g:presence_line_number_text    = "Line %s out of %s"
 
 lua << EOF
 	require("project_nvim").setup {}
