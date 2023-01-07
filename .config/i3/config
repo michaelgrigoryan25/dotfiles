@@ -196,10 +196,12 @@ bar {
 }
 
 exec --no-startup-id picom
+exec --no-startup-id volumeicon
 exec --no-startup-id setxkbmap us
 exec --no-startup-id blueman-applet
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id setxkbmap -layout us,am,ru -variant ,phonetic-alt,phonetic_winkeys -option 'grp:alt_shift_toggle'
+exec --no-startup-id gxkb
 
 gaps inner 8
 client.focused		#2D2D34 #2D2D34 #ff006e

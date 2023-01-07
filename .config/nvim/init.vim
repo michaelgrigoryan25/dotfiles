@@ -44,7 +44,14 @@ Plug 'filipdutescu/renamer.nvim', { 'branch': 'master' }
 Plug 'tpope/vim-commentary'
 " presence plugin for discord
 Plug 'andweeb/presence.nvim'
+" colorscheme
+Plug 'NLKNguyen/papercolor-theme'
 call plug#end()
+
+colorscheme PaperColor 
+
+" auto formatting for c/c++ files
+autocmd FileType c,cpp setlocal equalprg=clang-format
 
 " Keybindings for move.nvim
 nnoremap <silent> <A-j> :MoveLine(1)<CR>
